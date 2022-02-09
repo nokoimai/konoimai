@@ -1,0 +1,238 @@
+html {
+  font-size: 62.5%;
+}
+ 
+body {
+  color: #333;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif 'TsukuARdGothic-Regular',sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+    max-width: 1280px;
+  margin: 0 auto;
+}
+
+.navitop a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+header{
+  border-bottom:3px solid;
+  border-color:lightgray;
+    background-color:white;
+    position: fixed;
+    width:100%;
+    max-width:1280px;
+    height:100px;
+    z-index: 999;
+    top:0;
+}
+
+
+
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navitop{
+  margin:20px 0;
+}
+
+.navitop a:hover{
+     transform: scale(1.1);
+     display:inline-block;
+    transform:scale(1.2);
+}
+
+
+.insta{
+  margin-right:20px;
+  margin-top:15px;  
+  width:40px;
+}
+
+.logo{
+  width:110px;
+  margin-left: 20px;
+    margin-bottom:19px;
+}
+
+.navi{
+  list-style-type:none;
+  display:flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+
+.navi li{
+  padding-left:30px;
+   font-family: 'TsukuARdGothic-Regular';
+}
+
+
+h2 p img{
+  max-width:1280px;
+  width:100%;
+  margin: 0 auto;
+    margin-top:130px;
+}
+
+.current{
+  font-weight: bold;
+  margin-top: 0;
+}
+
+body{
+    width:100%;
+  max-width:1280px;
+  margin:0 auto; 
+}
+
+.aboutme{
+  display:flex;
+    margin-top:90px;
+}
+
+.me{
+  height:400px;
+  margin:60px 50px;
+}
+
+aside{
+  margin-top: 80px;
+}
+
+.name{
+  font-size:30px;
+  margin-bottom: 60px;
+  font-family: 'TsukuARdGothic-Regular';
+}
+
+.article{
+  font-size:23px; 
+  font-family: 'TsukuARdGothic-Regular';
+  font-weight: 100;
+}
+
+.manwoman{
+  height:400px;
+  margin:220px 0;
+  justify-content: flex-end;  
+}
+
+
+
+h5{
+  margin-top:-320px;
+  margin-left:230px;
+    
+    
+}
+.mark{
+  height:50px;
+}
+
+.sec15{
+    text-align:center;
+    padding:60px 0 70px;
+}
+
+.sec15 .inner{
+    width:860px;
+    margin:0 auto;
+    margin-top:90px;
+}
+
+.sec15 h1{
+    font-size:28px;
+    font-family: 'TsukuARdGothic-Regular';
+}
+
+.sec15 input, .sec15 textarea{
+  display:block;
+   width:100%;
+   border:none;
+   border-radius: 5px;
+   box-sizing: border-box;
+    padding:10px;
+      outline: 2px grey solid;
+}
+
+.sec15 input::placeholder, .sec15 textarea::placeholder{
+    color:#aaa;
+}
+
+.sec15 input{
+    height:50px;
+}
+.sec15 textarea{
+    height:100px;
+    margin-bottom: 40px;
+}
+
+.sec15 button{
+    display:block;
+    height:55px;
+    padding:0 40px;
+    border-radius: 30px;
+    background-color: lightgray;
+    line-height:45px;
+    text-decoration:none;
+    width:50%;
+    margin:auto;
+    border:none;
+    font-size:23px;
+    font-family: 'TsukuARdGothic-Regular';
+}
+
+.map{
+    width:500px;
+    margin-top: 30px;
+}
+
+.titleillust{
+    font-size:28px;
+    font-family: 'TsukuARdGothic-Regular';
+   text-align:center;
+    padding:60px 0 20px;
+    margin-top:90px;
+}
+
+.list{
+    display:flex;
+    max-width:1000px;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.illustration{
+   padding:20px 10px;
+    margin: 0 auto;
+}
+
+.list img{
+   box-shadow: 0 0 20px 0
+       rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  
+}
+
+.list img:hover {
+    transform: scale(1.05);
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+footer{
+    max-width: 1280px;
+    width:100%;
+    
+    height:300px;
+}
+
+footer h4{
+    text-align: center;
+    padding-top: 300px;
+}
